@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+#contents{
+	width: 970px;
+	height: auto;
+	margin: auto;
+}
+
+#contents .main_img{
+	width: 100%;
+	height: 360px;
+	margin-top: 27px;
+	position: relative;
+}
+
+#contents .main_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.main_img:hover .main_overlay{
+	left: -10px;
+  	opacity: 0.8;
+  	transition: all 0.3s ease-in-out;	
+}
+
+.main_overlay{
+	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	color: #333;
+  	z-index: 100;
+  	width: 100%;
+  	height: 100%;
+  	padding: 10px;
+  	transition: all 0.3s ease-in-out;
+  	background: #fff;
+  	opacity: 0;
+	
+}
+
+
+
+
+
+#contents .myhobby{
+	width: auto;
+	height: 300px;
+	background: url(../img/gra_bg.png) repeat-x;
+	padding: 40px 50px;              /* 위  아래 안쪽여백*/
+	margin-bottom: 50px;
+}
+
+#contents .type01{ 
+	width: 245px;
+	overflow: hidden;
+	float: left;
+}
+
+#contents .type01.cen{
+							 
+	margin: 0 60px; 
+}
+
+#contents .title{
+	height: 25px;
+	background: url(../img/cute.png) no-repeat;
+	text-indent: -9999px;
+	margin-bottom: 7px;
+	margin-left : -7px;
+}
+
+#contents .type01 .hobby_src{
+	display: block;       
+	overflow: hidden;
+
+}
+
+#contents .type01 .thum_img{
+	position: relative;
+	display: inline-block;  
+	overflow: hidden;
+	width:  245px;
+	height: 148px;
+}
+
+#contents .type01 .thum_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.myhobby h3{
+	font-weight : bold;
+	font-size: 20px;
+	color : #cca;
+}
+
+.my_profile h3{
+	font-weight : bold;
+	font-size: 20px;
+	color : #cca;
+	padding-left: 50px;
+}
+
+.my_profile .profile{
+	display: inline-block;
+	position : relative;
+	margin-left : 7px;
+	padding : 0px;
+}
+
+.profile:hover .overlay{
+	left: -10px;
+  	opacity: 0.8;
+  	transition: all 0.3s ease-in-out;	
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #333;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+  opacity: 0;
+}
+
+#zz{
+	position: absolute;
+	top :150px;
+	left :100px;
+	font-size: 18px;
+	color : DimGray;
+}
+
+
+
+.type01 .subject{
+	height: 35px;
+	font-weight: bold; /*두껍게*/
+	font-size : 20px;
+	color : SteelBlue;
+	line-height: 35px;
+}
+
+.type01 .subject:hover{
+	color: #cca;
+}
+
+.type01 .source{
+	float:left;
+	color : MidnightBlue;
+}
+
+.type01 .more_view{
+	float:right;
+	color : MidnightBlue;
+}
+
+.type01 .more_view:hover{
+	color: #cce;
+}
+
+/*****************************************************************/
+
