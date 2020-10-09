@@ -47,6 +47,7 @@
 	width: 100%;
 	height: 50px;
 	overflow: hidden;
+	
 }
 #header .gnb li{
 	float: left;
@@ -61,7 +62,7 @@
 	width: 0;
 	height: 0;
 }
-#header .gnb li:hover{ background-color: #cca; }
+#header .gnb li:hover{ background-color:  #BDBDBD; }
 
 #header .gnb li a{
 	display: block;	
@@ -76,8 +77,7 @@
 	color: #fff;
 	font-weight: bold;
 	font-size: 16px;
-	
-	padding-left: 20px;
+	padding-left: 6px;
 
 }
 

@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+	body{
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		background-color: #616161;
+	}
+	
+	div#wrap{
+		width: 700px;
+		border: 1px solid #fff;
+		margin: 50px auto;           /*위,아래      좌우*/
+		margin-bottom: 0px;
+	}
+	
+	#header>li{
+	margin-bottom: 10px;
+	list-style: none;
+	
+}
+
+#header>li>a{
+	float : left;
+	padding : 70px;
+	font-size : 25px;
+	text-indent: -40px;
+	text-decoration : none;
+	font-style: oblique;
+	font-family: fantasy;
+}
+
+	div#wrap a{
+		color: #fff;
+	}
+	
+	div#wrap>h1{
+		text-indent : 35px;
+		margin: 30px;
+		border-bottom : 2px solid #fff;
+		font: bold 35px; 
+		font-style: oblique;
+		font-family: fantasy;
+	}
+	
+	div#wrap a:hover{
+		color: black;
+	}
+	
+	ul#List{
+		list-style: none;
+		margin: 20px;
+		padding: 0;
+		border-bottom : 2px solid #fff;
+	}
+	/*자동차 하나당 너비 170픽셀, 보더는 1픽셀 단선을 흰색으로 지정하고, 
+	  문자열은 무조건 가운대 맞춤. 바깥쪽 여백은 위쪽과 오른쪽은 0, 아래쪽과 왼쪽은 46px 지정 */
+	  
+	.Box{
+		float: left;
+		width: 170px;
+		border : 1px solid white;
+		text-align: center;
+		margin: 0px 0px 46px 46px;
+		padding-top : 5px;
+		padding-bottom: 5px;
+		
+	}
+	
+	.end{
+		float: none;
+		clear: both;   /*앞에 적용되고있던 float을 clear을 통해 해제시킴.*/
+	}
+	
+	.Box>span>a{
+		font: 12px sans-serif;
+		text-decoration: none;
+	}
+	
+	.Box>a{
+		display: block;
+		width: 160px;
+		height: 120px;
+		border: 4px solid  #757575;		
+	}
+	
+	.Box>a:hover{
+		display: block;
+		border: 4px solid #DCDCDC;
+	}
+	
+	#values{
+		width: 160px;
+		height: 120px;
+	}
+	
+	
+	/*****************************************
+		     content 스타일
+ *****************************************/
+	
+	#contents{
+	width: 700px;
+	height: 780px;
+	margin: auto;
+}
+	
+	#contents .myhobby{
+	position : relative;
+	width: auto;
+	height: 800px;
+	background-color : #A9A9A9;
+	padding: 40px 50px;              /* 위  아래 안쪽여백*/
+	
+}
+
+.myhobby h3{
+	
+	font-style: oblique;
+	font-family: fantasy;
+	font-weight : bold;
+	padding-bottom : 3px;
+	font-size: 25px;
+	color : #fff;
+	border-bottom : 1px solid #ccc;
+	margin : 10px;
+}
+
+.title{
+	text-align: center;
+	color : #fff;
+}
+
+#contents .type01{ 
+	width: 170px;
+	overflow: hidden;
+	float: left;
+	
+}
+
+#contents .type01.cen{
+							 
+	margin: 0 45px; 
+}
+
+#contents .type01 .hobby_src{
+	display: block;       
+	overflow: hidden;
+
+}
+
+#contents .type01 .thum_img{
+	position: relative;
+	display: inline-block;  
+	overflow: hidden;
+	width:  170px;
+	height: 150px;
+}
+
+#contents .type01 .thum_img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.introduce{
+	position: absolute;
+	padding-top : 30px;
+	padding-bottom : 30px;
+	top : 300px;
+	left : -30px;
+	margin : 80px;
+	font-size: 20px;
+	border-top : 5px dashed grey;
+	border-bottom : 5px dashed grey;
+	
+}
+	
+	/*****************************************
+		      바닥글(footer) 스타일
+ *****************************************/
+
+#footer{
+	width: auto;
+	background: #eee;
+	margin-top: 100px;
+	
+	
+}
+
+#footer .footer_area{
+	width: 900px;
+	margin: auto;
+	padding: 50px 0;
+}
+
+#footer .foot_guide{
+	
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+#footer .foot_guide li:first-child{
+	border-left: none;
+	padding-left: 0;
+}
+
+#footer .foot_guide li a{
+	color: #777;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+#footer address{
+	font-size: 12px;
+	color: #777;
+	padding-bottom: 6px;
+}
+
+
+
+#footer .copyright{
+	font-size: 11px; color: black;
+	}

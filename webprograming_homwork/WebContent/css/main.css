@@ -19,9 +19,14 @@
 }
 
 .main_img:hover .main_overlay{
-	left: -10px;
+	left: -4px;
   	opacity: 0.8;
-  	transition: all 0.3s ease-in-out;	
+  	transition: all 0.3s ease-in-out;
+  	z-index: 100;
+  	border: 4px dashed #fff;
+  	height: 93%;
+  	width: 98%
+  	 
 }
 
 .main_overlay{
@@ -34,14 +39,10 @@
   	height: 100%;
   	padding: 10px;
   	transition: all 0.3s ease-in-out;
-  	background: #fff;
+  	background: #9E9E9E;
   	opacity: 0;
 	
 }
-
-
-
-
 
 #contents .myhobby{
 	width: auto;
@@ -91,14 +92,19 @@
 
 .myhobby h3{
 	font-weight : bold;
-	font-size: 20px;
-	color : #cca;
+	padding-bottom : 3px;
+	font-size: 22px;
+	color : #01579B;
+	border-bottom : 1px solid #4FC3F7;
+	margin : 10px;
+	
 }
 
 .my_profile h3{
 	font-weight : bold;
-	font-size: 20px;
-	color : #cca;
+	font-size: 30px;
+	border-bottom : 1px solid #4FC3F7;
+	color : #01579B;
 	padding-left: 50px;
 }
 
@@ -129,14 +135,21 @@
   opacity: 0;
 }
 
-#zz{
+#introduce{
 	position: absolute;
-	top :150px;
-	left :100px;
+	top :140px;
+	left :50px;
 	font-size: 18px;
 	color : DimGray;
 }
 
+#overlay-text{
+	position: absolute;
+	top :100px;
+	left :320px;
+	font-size: 25px;
+	color :#fff;
+}
 
 
 .type01 .subject{
@@ -148,7 +161,7 @@
 }
 
 .type01 .subject:hover{
-	color: #cca;
+	color: #A5D6A7;
 }
 
 .type01 .source{
