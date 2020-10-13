@@ -129,7 +129,11 @@
 
 
 
-#footer .copyright{font-size: 11px;}
+#footer .copyright{
+	font-size: 13px; 
+	color: black;
+	text-align: left;
+}
 
 /*****************************************
 		      기타 스타일
