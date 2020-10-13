@@ -12,25 +12,21 @@
 	
 }
 
+/***********************/
 /******* 상단영역 ********/
+/***********************/
 #header{
 	position: relative;
 	width: 1050px;
 	height: 145px;
 	margin: auto;
-	
-
-	
 }
-/* header안에 있는 h1태그의 문자열을 없애고, 배경이미지로
-	logo.png로 설정한다. */
+
 #header h2{
 	width: 295px;
 	height: 84px;
 	margin-left : 38px;
 	background: url(../img/ssulogo.png) no-repeat; 
-						/* 현 css문서는 html/main.html에 적용된다. 이때 이미지의 경로는
-						바로 main.html문서를 기준으로 상대경로를 지정한다. */
 	text-indent: 850px;
 	font-style: oblique;
 	font-family: fantasy;
@@ -38,10 +34,7 @@
 }
 
 /******* 메뉴작업 ********/
-/* 클래스가 gnb의 위치는 절대적 위치로 지정하고, 너비는 100%, 높이는 50px
-	각 li의 너비는 194px로 정한다. 그리고 float개념으로 수평메뉴를 지정하자!
-	배경색은 #ff5001 마우스를 올렸을 때의 배경색은 #e24c09
-*/
+
 #header .gnb{
 	position: absolute;
 	width: 100%;
@@ -153,7 +146,5 @@
  	float: none;
  	clear: both;
  	display: block;
- 	height: 0 !important; /*!important는 CSS를 적용하다 보면 다른
- 							CSS파일에서 중복 적용되는 부분이 더 생기는데,
- 							제일 우선시 하겠다는 의미*/
+ 	height: 0 !important; 
  }

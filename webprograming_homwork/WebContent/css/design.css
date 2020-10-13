@@ -51,17 +51,15 @@
 		list-style: none;
 		margin: 20px;
 		padding: 0;
-		border-bottom : 2px solid #fff;
+		border-bottom: 2px solid #fff;
 	}
-	/*자동차 하나당 너비 170픽셀, 보더는 1픽셀 단선을 흰색으로 지정하고, 
-	  문자열은 무조건 가운대 맞춤. 바깥쪽 여백은 위쪽과 오른쪽은 0, 아래쪽과 왼쪽은 46px 지정 */
 	  
 	.Box{
 		float: left;
 		width: 170px;
 		border : 1px solid white;
 		text-align: center;
-		margin: 0px 0px 46px 46px;
+		margin: 0px 0px 36px 36px;
 		padding-top : 5px;
 		padding-bottom: 5px;
 		
@@ -69,7 +67,7 @@
 	
 	.end{
 		float: none;
-		clear: both;   /*앞에 적용되고있던 float을 clear을 통해 해제시킴.*/
+		clear: both;            /*앞에 적용되고있던 float을 clear을 통해 해제시킴.*/
 	}
 	
 	.Box>span>a{
